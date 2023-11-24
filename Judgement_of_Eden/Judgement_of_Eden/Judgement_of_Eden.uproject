@@ -3,6 +3,17 @@
 	"EngineAssociation": "{A55C411E-4A16-702A-62F6-7A92F43B6AC7}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Judgement_of_Eden",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
