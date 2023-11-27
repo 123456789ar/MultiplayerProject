@@ -16,10 +16,18 @@ AEdenFlame::AEdenFlame()
 	Fire->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
 	Fire->SetupAttachment(RootComponent);
 
-	MyBoxComponent->OnComponentBeginOverlap.AddDynamic(this, &AEdenFlame::OnOverlapBegin);
-	MyBoxComponent->OnComponentEndOverlap.AddDynamic(this, &AEdenFlame::OnOverlapEnd);
-
 	bCanApplyDamage = false;
+}
+
+void AEdenFlame::BeginPlay()
+{
+	FScriptDelegate OnBeginOverlapDelegate;
+	OnBeginOverlapDelegate.BindUFunction(this, "OnOverlapBegin");
+	MyBoxComponent->OnComponentBeginOverlap.Add(OnBeginOverlapDelegate);
+
+	FScriptDelegate OnEndOverlapDelegate;
+	OnEndOverlapDelegate.BindUFunction(this, "OnOverlapEnd");
+	MyBoxComponent->OnComponentEndOverlap.Add(OnEndOverlapDelegate);
 }
 
 void AEdenFlame::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp,
@@ -41,11 +49,12 @@ void AEdenFlame::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp,
 {
 	bCanApplyDamage = false;
 	GetWorldTimerManager().ClearTimer(FireTimerHandle);
+	MyCharacter = nullptr;
 }
 
 void AEdenFlame::ApplyFireDamage()
 {
-	if (bCanApplyDamage)
+	if (bCanApplyDamage && MyCharacter)
 	{
 		UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
 	}

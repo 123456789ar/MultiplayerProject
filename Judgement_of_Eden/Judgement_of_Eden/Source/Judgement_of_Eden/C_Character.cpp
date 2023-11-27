@@ -83,6 +83,8 @@ void AC_Character::RecievePointDamage(float Damage, const class UDamageType* Dam
 	redFlash = true;
 	UpdateHealth(-Damage);
 	DamageTimer();
+
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Applied Some Damage!"));
 }
 
 void AC_Character::UpdateHealth(float HealthChange)

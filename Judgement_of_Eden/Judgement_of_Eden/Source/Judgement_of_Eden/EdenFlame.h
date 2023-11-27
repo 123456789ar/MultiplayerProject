@@ -17,6 +17,8 @@ public:
 	// Sets default values for this actor's properties
 	AEdenFlame();
 
+	virtual void BeginPlay() override;
+
 public:	
 	UPROPERTY(EditAnywhere)
 	UParticleSystemComponent* Fire;
