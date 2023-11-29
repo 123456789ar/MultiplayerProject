@@ -38,6 +38,9 @@ public:
 	bool bCanApplyDamage;
 	FTimerHandle FireTimerHandle;
 
+	UPROPERTY(EditAnywhere)
+	float DamageToDeal = 20;
+
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, 
 	class AActor* OtherActor, class UPrimitiveComponent* OtherComp, 

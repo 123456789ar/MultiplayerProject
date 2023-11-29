@@ -56,7 +56,7 @@ void AEdenFlame::ApplyFireDamage()
 {
 	if (bCanApplyDamage && MyCharacter)
 	{
-		UGameplayStatics::ApplyPointDamage(MyCharacter, 200.0f, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
+		UGameplayStatics::ApplyPointDamage(MyCharacter, DamageToDeal, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
 	}
 }
 

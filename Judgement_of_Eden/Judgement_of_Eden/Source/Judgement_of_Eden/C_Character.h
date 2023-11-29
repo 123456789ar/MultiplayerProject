@@ -62,11 +62,8 @@ public:
 
 	FTimerHandle MemberTimerHandle;
 
-	UFUNCTION()
-		void RecievePointDamage(float Damage, const class UDamageType* DamageType, 
-			FVector HitLocation, FVector HitNormal, class UPrimitiveComponent* HitComponent, 
-			FName BoneName, FVector ShotFromDirection, class AController* InstigatedBy, 
-			AActor* DamageCauser, const FHitResult& HitInfo);
+	UFUNCTION(BlueprintCallable)
+		void RecieveDamage(float Damage);
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
 		void UpdateHealth(float HealthChange);

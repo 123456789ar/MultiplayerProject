@@ -7,6 +7,7 @@
 
 // Sets default values
 AC_Character::AC_Character()
+	: FullHealth(1000)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -18,7 +19,6 @@ void AC_Character::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	FullHealth = 1000.0f;
 	Health = FullHealth;
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
@@ -74,10 +74,7 @@ bool AC_Character::PlayFlash()
 	return false;
 }
 
-void AC_Character::RecievePointDamage(float Damage, const class UDamageType* DamageType, 
-	FVector HitLocation, FVector HitNormal, class UPrimitiveComponent* HitComponent, 
-	FName BoneName, FVector ShotFromDirection, class AController* InstigatedBy,
-	AActor* DamageCauser, const FHitResult& HitInfo)
+void AC_Character::RecieveDamage(float Damage)
 {
 	bCanBeDamaged = false;
 	redFlash = true;
