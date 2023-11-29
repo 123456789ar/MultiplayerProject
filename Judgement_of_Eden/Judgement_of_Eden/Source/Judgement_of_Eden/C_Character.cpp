@@ -74,7 +74,7 @@ bool AC_Character::PlayFlash()
 	return false;
 }
 
-void AC_Character::RecieveDamage(float Damage)
+void AC_Character::ReceiveDamage(float Damage)
 {
 	bCanBeDamaged = false;
 	redFlash = true;

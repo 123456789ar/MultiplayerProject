@@ -63,7 +63,7 @@ public:
 	FTimerHandle MemberTimerHandle;
 
 	UFUNCTION(BlueprintCallable)
-		void RecieveDamage(float Damage);
+		void ReceiveDamage(float Damage);
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
 		void UpdateHealth(float HealthChange);
