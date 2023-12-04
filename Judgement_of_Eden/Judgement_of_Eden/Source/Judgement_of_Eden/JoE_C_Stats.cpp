@@ -2,78 +2,114 @@
 
 
 #include "JoE_C_Stats.h"
-#include "Kismet/KismetMathLibrary.h"
-#include "TimerManager.h"
 
-// Sets default values for this component's properties
 UJoE_C_Stats::UJoE_C_Stats()
 {
-	//: FullStrength (10)
-	//: FullDefense (10)
-	//: FullSpeed (10)
-	: FullStamina (100)
-	: FullCore (100)
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
+	PrimaryComponentTick.bCanEverTick = false;
+	PrimaryComponentTick.bStartWithTickEnabled = false;
 }
 
-
-// Called when the game starts
-void UJoE_C_Stats::BeginPlay()
+void UJoE_C_Stats::IncreaseAttackStat(float Value)
 {
-	Super::BeginPlay();
-	Strength = FullStrength;
-	Stamina = FullStamina;
-	StaminaPercentage = 1.0f;
-	Core = FullCore;
-	CorePercentage = 1.0f;
-	// ...
-	
+	const float OldAttack = Attack;
+	Attack = FMath::Clamp(Attack + Value, 0.0f, AttackMaxStat);
+
+	OnAttackModifiedEvent.Broadcast(OldAttack, Attack);
 }
 
-
-// Called every frame
-void UJoE_C_Stats::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UJoE_C_Stats::DecreaseAttackStat(float Value)
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	const float OldAttack = Attack;
+	Attack = FMath::Clamp(Attack - Value, 0.0f, AttackMaxStat);
 
-	// ...
+	OnAttackModifiedEvent.Broadcast(OldAttack, Attack);
 }
 
-float UJoE_C_Stats::GetStamina()
+float UJoE_C_Stats::GetCurrentAttackStat() const
 {
-	return FullStamina;
+	return Attack;
 }
 
-FText UJoE_C_Stats::GetStaminaIntText()
+void UJoE_C_Stats::IncreaseDefenceStat(float Value)
 {
-	int32 STM = FMath::RoundHalfFromZero(StaminaPercentage * 100);
-	FString STMS = FString::FromInt(STM);
-	FString StaminaHUD = STMS + FString(TEXT("%"));
-	FText STMTEXT = FText::FromString(StaminaHUD);
-	return STMTEXT;
+	const float OldDefence = Defence;
+	Defence = FMath::Clamp(Defence + Value, 0.0f, DefenceMaxStat);
+
+	OnDefenceModifiedEvent.Broadcast(OldDefence, Defence);
 }
 
-void UJoE_C_Stats::UpdateStamina(float StaminaChange)
+void UJoE_C_Stats::DecreaseDefenceStat(float Value)
 {
-	Stamina += StaminaChange;
-	Stamina = FMath::Clamp(Stamina, 0.0f, FullStamina);
-	StaminaPercentage = Stamina / FullStamina;
-}
-/*
-float UJoE_C_Stats::GetDefense()
-{
-	return FullDefense;
+	const float OldDefence = Defence;
+	Defence = FMath::Clamp(Defence - Value, 0.0f, DefenceMaxStat);
+
+	OnDefenceModifiedEvent.Broadcast(OldDefence, Defence);
 }
 
-FText UJoE_C_Stats::GetDefenseIntText()
+float UJoE_C_Stats::GetCurrentDefenceStat() const
 {
-	int32 DEF = FMath::RoundHalfFromZero(DefensePercentage * 100);
-	FString DEFS = FString::FromInt(DEF);
-	FString DefenseHUD = DEFS + FString(TEXT("%"));
-	FText DEFTEXT = FText::FromString(DefenseHUD);
-	return DEFTEXT;
-}*/
+	return Defence;
+}
+
+void UJoE_C_Stats::IncreaseSpeedStat(float Value)
+{
+	const float OldSpeed = Speed;
+	Speed = FMath::Clamp(Speed + Value, 0.0f, SpeedMaxStat);
+
+	OnSpeedModifiedEvent.Broadcast(OldSpeed, Speed);
+}
+
+void UJoE_C_Stats::DecreaseSpeedStat(float Value)
+{
+	const float OldSpeed = Speed;
+	Speed = FMath::Clamp(Speed - Value, 0.0f, SpeedMaxStat);
+
+	OnSpeedModifiedEvent.Broadcast(OldSpeed, Speed);
+}
+
+float UJoE_C_Stats::GetCurrentSpeedStat() const
+{
+	return Speed;
+}
+
+void UJoE_C_Stats::IncreaseStaminaStat(float Value)
+{
+	const float OldStamina = Stamina;
+	Stamina = FMath::Clamp(Stamina + Value, 0.0f, StaminaMaxStat);
+
+	OnStaminaModifiedEvent.Broadcast(OldStamina, Stamina);
+}
+
+void UJoE_C_Stats::DecreaseStaminaStat(float Value)
+{
+	const float OldStamina = Stamina;
+	Stamina = FMath::Clamp(Stamina - Value, 0.0f, StaminaMaxStat);
+
+	OnStaminaModifiedEvent.Broadcast(OldStamina, Stamina);
+}
+
+float UJoE_C_Stats::GetCurrentStaminaStat() const
+{
+	return Stamina;
+}
+
+void UJoE_C_Stats::IncreaseMagicStat(float Value)
+{
+	const float OldMagic = Magic;
+	Magic = FMath::Clamp(Magic + Value, 0.0f, MagicMaxStat);
+
+	OnMagicModifiedEvent.Broadcast(OldMagic, Magic);
+}
+
+void UJoE_C_Stats::DecreaseMagicStat(float Value)
+{
+	const float OldMagic = Magic;
+	Magic = FMath::Clamp(Speed - Value, 0.0f, MagicMaxStat);
+
+	OnMagicModifiedEvent.Broadcast(OldMagic, Magic);
+}
+
+float UJoE_C_Stats::GetCurrentMagicStat() const
+{
+	return Magic;
+}

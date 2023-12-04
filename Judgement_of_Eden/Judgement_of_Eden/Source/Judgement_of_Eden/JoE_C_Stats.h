@@ -6,6 +6,12 @@
 #include "Components/ActorComponent.h"
 #include "JoE_C_Stats.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnAttackModifiedEvent, float, PreviousAttackStat, float, NewAttackStat);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnDefenceModifiedEvent, float, PreviousDefenceStat, float, NewDefenceStat);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnSpeedModifiedEvent, float, PreviousSpeedStat, float, NewSpeedStat);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnStaminaModifiedEvent, float, PreviousStaminaStat, float, NewStaminaStat);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnMagicModifiedEvent, float, PreviousMagicStat, float, NewMagicStat);
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class JUDGEMENT_OF_EDEN_API UJoE_C_Stats : public UActorComponent
@@ -18,84 +24,81 @@ public:
 
 protected:
 	// Called when the game starts
-	virtual void BeginPlay() override;
+	virtual void BeginPlay() override { Super::BeginPlay(); }
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	/*
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float FullStrength;
+	UFUNCTION(BlueprintCallable)
+		void IncreaseAttackStat(float Value);
+	UFUNCTION(BlueprintCallable)
+		void DecreaseAttackStat(float Value);
+	UFUNCTION(BlueprintPure)
+		float GetCurrentAttackStat() const;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float StrengthPercentage;
+	UFUNCTION(BlueprintCallable)
+		void IncreaseDefenceStat(float Value);
+	UFUNCTION(BlueprintCallable)
+		void DecreaseDefenceStat(float Value);
+	UFUNCTION(BlueprintPure)
+		float GetCurrentDefenceStat() const;
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	float GetStrength();
+	UFUNCTION(BlueprintCallable)
+		void IncreaseSpeedStat(float Value);
+	UFUNCTION(BlueprintCallable)
+		void DecreaseSpeedStat(float Value);
+	UFUNCTION(BlueprintPure)
+		float GetCurrentSpeedStat() const;
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	FText GetStrengthIntText();
+	UFUNCTION(BlueprintCallable)
+		void IncreaseStaminaStat(float Value);
+	UFUNCTION(BlueprintCallable)
+		void DecreaseStaminaStat(float Value);
+	UFUNCTION(BlueprintPure)
+		float GetCurrentStaminaStat() const;
 
-	UFUNCTION(BlueprintCallable, Category = "Stat")
-	void UpdateStrength(float StrengthChange);
+	UFUNCTION(BlueprintCallable)
+		void IncreaseMagicStat(float Value);
+	UFUNCTION(BlueprintCallable)
+		void DecreaseMagicStat(float Value);
+	UFUNCTION(BlueprintPure)
+		float GetCurrentMagicStat() const;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float FullDefense;
+public: // Events
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float DefensePercentage;
+	UPROPERTY(BlueprintAssignable)
+		FOnAttackModifiedEvent	OnAttackModifiedEvent;
+	UPROPERTY(BlueprintAssignable)
+		FOnDefenceModifiedEvent OnDefenceModifiedEvent;
+	UPROPERTY(BlueprintAssignable)
+		FOnSpeedModifiedEvent	OnSpeedModifiedEvent;
+	UPROPERTY(BlueprintAssignable)
+		FOnStaminaModifiedEvent OnStaminaModifiedEvent;
+	UPROPERTY(BlueprintAssignable)
+		FOnMagicModifiedEvent	OnMagicModifiedEvent;
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	float GetDefense();
+protected: // Stats Protected So Only Child Classes Can Access This Directly
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	FText GetDefenseIntText();
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float AttackMaxStat = 255;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float Attack = 10;
 
-	UFUNCTION(BlueprintCallable, Category = "Stat")
-	void UpdateDefense(float DefenseChange);
-	*/
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float FullSpeed;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float DefenceMaxStat = 255;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float Defence = 10;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float SpeedPercentage;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float SpeedMaxStat = 255;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float Speed = 10;
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	float GetSpeed();
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float StaminaMaxStat = 255;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float Stamina = 10;
 
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	FText GetSpeedIntText();
-
-	UFUNCTION(BlueprintCallable, Category = "Stat")
-	void UpdateSpeed(float SpeedChange);
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float FullStamina;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float StaminaPercentage;
-
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	float GetStamina();
-
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	FText GetStaminaIntText();
-
-	UFUNCTION(BlueprintCallable, Category = "Stat")
-	void UpdateStamina(float StaminaChange);
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Stat")
-	float FullCore;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	float CorePercentage;
-
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	float GetCore();
-
-	UFUNCTION(BlueprintPure, Category = "Stat")
-	FText GetCoreIntText();
-
-	UFUNCTION(BlueprintCallable, Category = "Stat")
-	void UpdateCore(float CoreChange);
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float MagicMaxStat = 255;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		float Magic = 10;
 };
