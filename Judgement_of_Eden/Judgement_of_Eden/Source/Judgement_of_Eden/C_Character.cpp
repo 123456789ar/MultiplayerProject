@@ -84,6 +84,14 @@ void AC_Character::ReceiveDamage(float Damage)
 	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Applied Some Damage!"));
 }
 
+void AC_Character::HandleDeath()
+{
+	if (Health == 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Character has died!"));
+	}
+}
+
 void AC_Character::UpdateHealth(float HealthChange)
 {
 	Health += HealthChange;

@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Components/TimelineComponent.h"
 #include "C_Character.generated.h"
+
 class UPrimitiveComponent;
 
 
@@ -59,6 +60,9 @@ public:
 
 	UFUNCTION(BLueprintPure, Category = "Health")
 	bool PlayFlash();
+
+	UFUNCTION()
+	void HandleDeath();
 
 	FTimerHandle MemberTimerHandle;
 

@@ -4,6 +4,7 @@
 #include "EdenFlame.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
+#include "JoE_C_Stats.h"
 
 // Sets default values
 AEdenFlame::AEdenFlame()
@@ -56,7 +57,9 @@ void AEdenFlame::ApplyFireDamage()
 {
 	if (bCanApplyDamage && MyCharacter)
 	{
-		UGameplayStatics::ApplyPointDamage(MyCharacter, DamageToDeal, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
+		float Defence = MyCharacter->GetComponentByClass<UJoE_C_Stats>()->GetCurrentDefenceStat();
+		float ActualDamage = FMath::Max(DamageToDeal - Defence, 0.0f);
+		UGameplayStatics::ApplyPointDamage(MyCharacter, ActualDamage, GetActorLocation(), MyHit, nullptr, this, FireDamageType);
 	}
 }
 
