@@ -13,6 +13,8 @@ AC_Character::AC_Character()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//SetReplicate(true);
+
 }
 
 // Called when the game starts or when spawned
@@ -91,7 +93,7 @@ void AC_Character::ReceiveDamage(float Damage)
 	UpdateHealth(-Damage);
 	DamageTimer();
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Applied Some Damage!"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Applied Some Damage!"));
 }
 
 void AC_Character::HandleDeath()
