@@ -35,7 +35,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 	float FullHealth;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, ReplicatedUsing = UpdateHealth, Category = "Health")
 	float HealthPercentage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
@@ -43,7 +43,10 @@ public:
 
 	float CurveFLoatValue;
 	float TimelineValue;
+
+	UPROPERTY(ReplicatedUsing = UpdateHealth)
 	float Health;
+	
 	bool bCanBeDamaged;
 
 	UFUNCTION(BlueprintPure, Category = "Health")

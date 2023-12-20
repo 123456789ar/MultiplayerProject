@@ -4,6 +4,7 @@
 #include "C_Character.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "TimerManager.h"
+#include <Runtime/Engine/Public/Net/UnrealNetwork.h>
 
 // Sets default values
 AC_Character::AC_Character()
@@ -29,6 +30,15 @@ void AC_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AC_Character::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	// Replicate to everyone
+	DOREPLIFETIME(AC_Character, Health);
+	DOREPLIFETIME(AC_Character, HealthPercentage);
 }
 
 // Called to bind functionality to input
