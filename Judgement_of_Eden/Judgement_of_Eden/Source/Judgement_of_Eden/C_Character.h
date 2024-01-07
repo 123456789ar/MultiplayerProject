@@ -19,6 +19,9 @@ public:
 	// Sets default values for this character's properties
 	AC_Character();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category = "Animation")
+	UAnimMontage* m_pLightAttackMontage;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -70,8 +73,19 @@ public:
 	FTimerHandle MemberTimerHandle;
 
 	UFUNCTION(BlueprintCallable)
-		void ReceiveDamage(float Damage);
+	void ReceiveDamage(float Damage);
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
-		void UpdateHealth(float HealthChange);
+	void UpdateHealth(float HealthChange);
+
+	void LightAttack();
+
+	bool IsAttacking();
+
+	int m_iComboAttackIndex = 0;
+
+public:
+
+	UFUNCTION()
+	void HandleOnMontageNotifyBegin(FName a_n_NotifyName, const FBranchingPointNotifyPayload& a_pBranchingPayload);
 };
