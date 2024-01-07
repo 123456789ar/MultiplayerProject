@@ -19,8 +19,6 @@ public:
 	// Sets default values for this character's properties
 	AC_Character();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Replicated, Category = "Animation")
-	UAnimMontage* m_pLightAttackMontage;
 
 protected:
 	// Called when the game starts or when spawned
@@ -77,7 +75,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Health")
 	void UpdateHealth(float HealthChange);
-
+/*
 	void LightAttack();
 
 	bool IsAttacking();
@@ -87,5 +85,5 @@ public:
 public:
 
 	UFUNCTION()
-	void HandleOnMontageNotifyBegin(FName a_n_NotifyName, const FBranchingPointNotifyPayload& a_pBranchingPayload);
+	void HandleOnMontageNotifyBegin(FName a_n_NotifyName, const FBranchingPointNotifyPayload& a_pBranchingPayload);*/
 };

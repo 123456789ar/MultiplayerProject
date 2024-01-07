@@ -26,10 +26,6 @@ void AC_Character::BeginPlay()
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
 
-	UAnimInstance* pAnimInst = GetMesh()->GetAnimInstance();
-	if (pAnimInst != nullptr) {
-		pAnimInst->OnPlayMontageNotifyBegin.AddDynamic(this, &AC_Character::HandleOnMontageNotifyBegin);
-	}
 }
 
 // Called every frame
@@ -114,42 +110,4 @@ void AC_Character::UpdateHealth(float HealthChange)
 	Health += HealthChange;
 	Health = FMath::Clamp(Health, 0.0f, FullHealth);
 	HealthPercentage = Health / FullHealth;
-}
-
-void AC_Character::LightAttack()
-{
-	if (!IsAttacking()) {
-		UAnimInstance* pAnimInst = GetMesh()->GetAnimInstance();
-		if (pAnimInst != nullptr) {
-			if (m_pLightAttackMontage != nullptr) {
-				pAnimInst->Montage_Play(m_pLightAttackMontage);
-			}
-		}
-	}
-	else
-	{
-		m_iComboAttackIndex = 1;
-	}
-}
-
-bool AC_Character::IsAttacking()
-{
-	UAnimInstance* pAnimInst = GetMesh()->GetAnimInstance();
-	if (pAnimInst->Montage_IsPlaying(m_pLightAttackMontage))
-	{
-		return true;
-	}
-	return false;
-}
-
-void AC_Character::HandleOnMontageNotifyBegin(FName a_n_NotifyName, const FBranchingPointNotifyPayload& a_pBranchingPayload)
-{
-	m_iComboAttackIndex--;
-
-	if (m_iComboAttackIndex < 0) {
-		UAnimInstance* pAnimInst = GetMesh()->GetAnimInstance();
-		if (pAnimInst != nullptr) {
-			pAnimInst->Montage_Stop(0.4f, m_pLightAttackMontage);
-		}
-	}
 }
