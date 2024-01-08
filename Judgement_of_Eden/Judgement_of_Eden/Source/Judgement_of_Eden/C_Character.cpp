@@ -26,6 +26,7 @@ void AC_Character::BeginPlay()
 	HealthPercentage = 1.0f;
 	bCanBeDamaged = true;
 
+
 }
 
 // Called every frame
@@ -69,6 +70,7 @@ void AC_Character::SetDamageState()
 {
 	bCanBeDamaged = true;
 }
+
 
 void AC_Character::DamageTimer()
 {

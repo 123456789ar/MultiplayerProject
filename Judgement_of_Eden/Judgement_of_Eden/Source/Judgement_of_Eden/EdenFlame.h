@@ -39,7 +39,7 @@ public:
 	FTimerHandle FireTimerHandle;
 
 	UPROPERTY(EditAnywhere)
-	float DamageToDeal = 20;
+	float DamageToDeal = 50;
 
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, 

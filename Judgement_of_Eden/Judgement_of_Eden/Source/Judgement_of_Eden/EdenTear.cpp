@@ -18,7 +18,7 @@ void AEdenTear::OnOverlap(AActor* MyOverlappedActor, AActor* OtherActor)
 
 		if (MyCharacter && MyCharacter->GetHealth() < 1.0f)
 		{
-			MyCharacter->UpdateHealth(10.0f);
+			MyCharacter->UpdateHealth(20.0f);
 			Destroy();
 		}
 	}

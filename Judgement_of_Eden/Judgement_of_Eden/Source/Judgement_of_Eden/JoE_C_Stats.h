@@ -78,27 +78,27 @@ public: // Events
 protected: // Stats Protected So Only Child Classes Can Access This Directly
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		float AttackMaxStat = 255;
+		float AttackMaxStat = 250;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		float Attack = 10;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		float DefenceMaxStat = 255;
+		float DefenceMaxStat = 250;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		float Defence = 10;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		float SpeedMaxStat = 255;
+		float SpeedMaxStat = 250;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		float Speed = 10;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		float StaminaMaxStat = 255;
+		float StaminaMaxStat = 250;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		float Stamina = 10;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-		float MagicMaxStat = 255;
+		float MagicMaxStat = 250;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		float Magic = 10;
 };

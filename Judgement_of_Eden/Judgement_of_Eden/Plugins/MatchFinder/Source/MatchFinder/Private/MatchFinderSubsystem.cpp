@@ -34,15 +34,15 @@ void UMatchFinderSubsystem::Deinitialize()
 
 void UMatchFinderSubsystem::RequestGame()
 {
-	if(WorkerThread.IsValid())
+	if (WorkerThread.IsValid())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("UMatchFinderSubsystem::RequestGame - Cannot Request A Game Whilst One Is Already being Requested!"));
-		
+
 		return;
 	}
 
 	const TSharedPtr<FWorkerFindMatch> MatchFinderJob = GetOrMakeWorkerJob();
-	if(!MatchFinderJob.IsValid())
+	if (!MatchFinderJob.IsValid())
 	{
 		UE_LOG(LogTemp, Error, TEXT("UMatchFinderSubsystem::RequestGame - Cannot Request A Game Whilst One Is Already being Requested!"));
 
@@ -54,7 +54,7 @@ void UMatchFinderSubsystem::RequestGame()
 	MatchFinderState = EMatchFinderSubsystemState::FindingMatch;
 
 	OnGameFindStartedEvent.Broadcast();
-	
+
 	FTimerDelegate TimerDelegate;
 	TimerDelegate.BindUFunction(this, "SlowTickFromTimerCallback");
 	GetWorld()->GetTimerManager().SetTimer(SlowTickHandle, TimerDelegate, 0.25f, true);
@@ -62,11 +62,11 @@ void UMatchFinderSubsystem::RequestGame()
 
 void UMatchFinderSubsystem::CancelRequest()
 {
-	if(WorkerThread.IsValid())
+	if (WorkerThread.IsValid())
 	{
 		WorkerThread->Kill();
 	}
-	
+
 	OnGameFindCanceledEvent.Broadcast();
 
 	MatchFinderState = EMatchFinderSubsystemState::Idle;
@@ -85,7 +85,7 @@ EMatchFindingProgress UMatchFinderSubsystem::GetMatchFindingProgress() const
 
 void UMatchFinderSubsystem::SlowTickFromTimerCallback()
 {
-	if(!WorkerJob.IsValid())
+	if (!WorkerJob.IsValid())
 	{
 		GetWorld()->GetTimerManager().ClearTimer(SlowTickHandle);
 
@@ -93,38 +93,38 @@ void UMatchFinderSubsystem::SlowTickFromTimerCallback()
 
 		return;
 	}
-	
+
 	OnGameFindStateUpdateEvent.Broadcast(WorkerJob->GetState());
 
-	switch(WorkerJob->GetProgress())
+	switch (WorkerJob->GetProgress())
 	{
 	case EMatchFindingProgress::CreatingConnection:
 	case EMatchFindingProgress::LoggingIn:
-	case EMatchFindingProgress::RequestingGame: 
-		{
-			return;
-		}
-		
+	case EMatchFindingProgress::RequestingGame:
+	{
+		return;
+	}
+
 	case EMatchFindingProgress::Complete:
-		{
-			OnGameFoundEvent.Broadcast(WorkerJob->GetIPnPort(), WorkerJob->GetAdditionalParameters());
-			
-			break;
-		}
+	{
+		OnGameFoundEvent.Broadcast(WorkerJob->GetIPnPort(), WorkerJob->GetAdditionalParameters());
+
+		break;
+	}
 
 	case EMatchFindingProgress::ConnectionFailed:
 	case EMatchFindingProgress::LoginFailed:
 	case EMatchFindingProgress::FindingFailed:
-		{
-			OnOnMatchFindingFailedEvent.Broadcast(WorkerJob->GetState());
-			
-			break;
-		}
+	{
+		OnOnMatchFindingFailedEvent.Broadcast(WorkerJob->GetState());
+
+		break;
+	}
 	default:
 		// TODO: Something Went Wrong lol;
 		break;
 	}
-	
+
 	GetWorld()->GetTimerManager().ClearTimer(SlowTickHandle);
 
 	MatchFinderState = EMatchFinderSubsystemState::Idle;
@@ -132,7 +132,7 @@ void UMatchFinderSubsystem::SlowTickFromTimerCallback()
 
 TSharedPtr<FWorkerFindMatch> UMatchFinderSubsystem::GetOrMakeWorkerJob()
 {
-	if(!WorkerJob)
+	if (!WorkerJob)
 	{
 		WorkerJob = MakeShared<FWorkerFindMatch>(MatchmakingServerIP, MatchmakingServerPort);
 	}
@@ -142,7 +142,7 @@ TSharedPtr<FWorkerFindMatch> UMatchFinderSubsystem::GetOrMakeWorkerJob()
 
 FString ConvertWorkerProgressToString(EMatchFindingProgress State)
 {
-	switch(State)
+	switch (State)
 	{
 	case EMatchFindingProgress::Idle:				return "Match Finding Not Working";
 	case EMatchFindingProgress::CreatingConnection: return "Connecting To Matchmaking Server";
@@ -167,8 +167,8 @@ bool FWorkerFindMatch::Init()
 	State.Empty();
 	ResultIPnPort.Empty();
 	ResultParameters.Empty();
-	
-	
+
+
 	// Not wanting to do anything here for now, let the main thread go back to whatever it was doing.
 	return FRunnable::Init();
 }
@@ -184,23 +184,23 @@ uint32 FWorkerFindMatch::Run()
 	TArray<uint8> ParsedIPv4;
 	const bool IsValidIP = FormatIPv4StringToNumerics(MatchmakingServerIP, ParsedIPv4);
 	const bool IsValidPort = HasValidPort(MatchmakingServerPort);
-	if(!IsValidIP || !IsValidPort)
+	if (!IsValidIP || !IsValidPort)
 	{
 		State = "Bad IP Given: Please Check Config File";
 		MatchFindingProgress = EMatchFindingProgress::ConnectionFailed;
 
 		return 1;
 	}
-	
-	if(!CreateSocketObject(SocketToMatchmakingServer))
+
+	if (!CreateSocketObject(SocketToMatchmakingServer))
 	{
 		State = "Failed To Create Socket Object";
 		MatchFindingProgress = EMatchFindingProgress::ConnectionFailed;
 
 		return 2;
 	}
-		
-	TSharedRef<FInternetAddr> MatchmakingServerAddress = CreateInternetAddressToMatchmakingServer(ParsedIPv4);	
+
+	TSharedRef<FInternetAddr> MatchmakingServerAddress = CreateInternetAddressToMatchmakingServer(ParsedIPv4);
 	if (!SocketToMatchmakingServer->Connect(MatchmakingServerAddress.Get()))
 	{
 		State = "Failed To Connect To MatchmakingServer With Given IP";
@@ -217,20 +217,20 @@ uint32 FWorkerFindMatch::Run()
 
 
 	SendLoginData();
-	if(!ReceiveLoginReply())
+	if (!ReceiveLoginReply())
 	{
 		State = "Failed To Login Please Try Again Later";
 		MatchFindingProgress = EMatchFindingProgress::LoginFailed;
 
 		return 4;
 	}
-	
+
 	FPlatformProcess::Sleep(2);
 	State = "Login Successful! ... Requesting Game!";
 	MatchFindingProgress = EMatchFindingProgress::RequestingGame;
 
 	SendGamemodeRequest();
-	if(!ReceiveGamemodeReply())
+	if (!ReceiveGamemodeReply())
 	{
 		State = "Failed To Request Gamemode Please Try Again";
 		MatchFindingProgress = EMatchFindingProgress::FindingFailed;
@@ -241,14 +241,14 @@ uint32 FWorkerFindMatch::Run()
 	FPlatformProcess::Sleep(2);
 	State = "Request Successful! ... Finding A Game!";
 
-	if(!ReceiveGamemodeConnection(ResultIPnPort, ResultParameters))
+	if (!ReceiveGamemodeConnection(ResultIPnPort, ResultParameters))
 	{
 		State = "Failed To Get Connection Message Please Try Again";
 		MatchFindingProgress = EMatchFindingProgress::FindingFailed;
 
 		return 6;
 	}
-	
+
 	// Note: Don't Do This In Real Life! This is Just So The Widget Can Update And Show You A Step By Step
 	FPlatformProcess::Sleep(2);
 	State = "Found Gamemode! ... Connecting To Server";
@@ -260,7 +260,7 @@ uint32 FWorkerFindMatch::Run()
 
 void FWorkerFindMatch::Exit()
 {
-	if(SocketToMatchmakingServer)
+	if (SocketToMatchmakingServer)
 		SocketToMatchmakingServer->Close();
 }
 
@@ -287,7 +287,7 @@ void FWorkerFindMatch::CleanseIPOfInvalidCharacters(FString& IP)
 	FRegexPattern RegexPattern(TEXT("[^\\d.]"), ERegexPatternFlags::CaseInsensitive);
 	FRegexMatcher RegexMatcher(RegexPattern, IP);
 
-	while(RegexMatcher.FindNext())
+	while (RegexMatcher.FindNext())
 	{
 		int32 AttributeListBegin = RegexMatcher.GetCaptureGroupBeginning(0);
 		int32 AttributeListEnd = RegexMatcher.GetCaptureGroupEnding(0);
@@ -298,7 +298,7 @@ void FWorkerFindMatch::CleanseIPOfInvalidCharacters(FString& IP)
 
 bool FWorkerFindMatch::IsConsideredAValidIP(const TArray<uint8>& IPValues)
 {
-	if(IPValues.Num() != 4)
+	if (IPValues.Num() != 4)
 		return false;
 
 	//for(int i = 0; i < IPValues.Num(); ++i)
@@ -335,17 +335,17 @@ bool FWorkerFindMatch::ReceiveLoginReply()
 {
 	// Let's Read Some Data TO Confirm If The Login Was Successful or not
 	TArray<uint8> ReadBuffer;
-	ReadBuffer.AddUninitialized(32);
-	
+	ReadBuffer.AddZeroed(32);
+
 	int32 BytesRead = 0;
 	SocketToMatchmakingServer->Recv(ReadBuffer.GetData(), 32, BytesRead);
 
-	FString ServerMessage = ANSI_TO_TCHAR( (char*)ReadBuffer.GetData() ); // Convert To UTF-16 Encoding
-	if(ServerMessage.Find(TEXT("LGS")) == 0)
+	FString ServerMessage = ANSI_TO_TCHAR((char*)ReadBuffer.GetData()); // Convert To UTF-16 Encoding
+	if (ServerMessage.Find(TEXT("LGS")) == 0)
 	{
 		return true;
 	}
-	
+
 	return false;
 }
 
@@ -364,17 +364,17 @@ void FWorkerFindMatch::SendGamemodeRequest()
 bool FWorkerFindMatch::ReceiveGamemodeReply()
 {
 	TArray<uint8> ReadBuffer;
-	ReadBuffer.AddUninitialized(32);
-	
+	ReadBuffer.AddZeroed(32);
+
 	int32 BytesRead = 0;
 	SocketToMatchmakingServer->Recv(ReadBuffer.GetData(), 32, BytesRead);
 
-	FString ServerMessage = ANSI_TO_TCHAR( (char*)ReadBuffer.GetData() ); // Convert To UTF-16 Encoding
-	if(ServerMessage.Find(TEXT("RGS")) == 0)
+	FString ServerMessage = ANSI_TO_TCHAR((char*)ReadBuffer.GetData()); // Convert To UTF-16 Encoding
+	if (ServerMessage.Find(TEXT("RGS")) == 0)
 	{
 		return true;
 	}
-	
+
 	return false;
 }
 
@@ -382,40 +382,40 @@ bool FWorkerFindMatch::ReceiveGamemodeReply()
 bool FWorkerFindMatch::ReceiveGamemodeConnection(FString& OutputIPnPort, FString& OutputParameters)
 {
 	TArray<uint8> ReadBuffer;
-	ReadBuffer.AddUninitialized(32);
-	
+	ReadBuffer.AddZeroed(32);
+
 	int32 BytesRead = 0;
 	SocketToMatchmakingServer->Recv(ReadBuffer.GetData(), 32, BytesRead);
 
-	FString ServerMessage = ANSI_TO_TCHAR( (char*)ReadBuffer.GetData() ); // Convert To UTF-16 Encoding
+	FString ServerMessage = ANSI_TO_TCHAR((char*)ReadBuffer.GetData()); // Convert To UTF-16 Encoding
 
 	FString CommandType;
 	FString CommandParams;
 	ServerMessage.Split(TEXT("|"), &CommandType, &CommandParams);
-	
-	if(CommandType.Equals( TEXT("RGC") ) )
+
+	if (CommandType.Equals(TEXT("RGC")))
 	{
 		OutputIPnPort = CommandParams;
-		
+
 		return true;
 	}
-	
+
 	return false;
 }
 
 bool FWorkerFindMatch::FormatIPv4StringToNumerics(FString& IP, TArray<uint8>& Output)
 {
 	CleanseIPOfInvalidCharacters(IP);
-	
+
 	TArray<FString> SplitString;
-	IP.ParseIntoArray( SplitString, TEXT(".") );
+	IP.ParseIntoArray(SplitString, TEXT("."));
 
 	Output.Empty();
-	for ( int32 i = 0; i < SplitString.Num(); ++i )
+	for (int32 i = 0; i < SplitString.Num(); ++i)
 	{
-		Output.Add( FCString::Atoi( *SplitString[i] ) );
+		Output.Add(FCString::Atoi(*SplitString[i]));
 	}
-	
+
 	return IsConsideredAValidIP(Output);
 }
 
