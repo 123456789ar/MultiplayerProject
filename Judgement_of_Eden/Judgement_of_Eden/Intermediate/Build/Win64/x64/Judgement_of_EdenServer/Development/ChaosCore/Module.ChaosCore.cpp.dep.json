@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\chaoscore\\module.chaoscore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\core\\sharedpch.core.shadowerrors.typecasterrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\chaoscore\\definitions.chaoscore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\private\\chaoscoremodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaoscoremodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\private\\rotation.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\rotation.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\real.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\vector.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\array.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\pair.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\matrix.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\private\\transform.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\chaoscore\\public\\chaos\\transform.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

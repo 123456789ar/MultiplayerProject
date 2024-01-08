@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\audiocapturecore\\module.audiocapturecore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\audiocapturecore\\definitions.audiocapturecore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\private\\audiocapturecore.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturedeviceinterface.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\dsp.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\alignedbuffer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\signalprocessingmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\wavetableosc.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\envelopefollower.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\threadsafebool.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\private\\audiocaptureinternal.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecorelog.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\features\\imodularfeatures.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\private\\audiocapturecoremodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiocapturecore\\public\\audiocapturecoremodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

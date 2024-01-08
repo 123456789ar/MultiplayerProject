@@ -1,0 +1,18 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\binkaudiodecoder\\module\\private\\binkaudioinfo.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\binkaudiodecoder\\definitions.binkaudiodecoder.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\binkaudiodecoder\\module\\public\\binkaudioinfo.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_file_header.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_decode.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

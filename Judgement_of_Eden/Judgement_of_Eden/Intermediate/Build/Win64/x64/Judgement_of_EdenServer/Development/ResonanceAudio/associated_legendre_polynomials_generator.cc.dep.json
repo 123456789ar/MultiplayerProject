@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\associated_legendre_polynomials_generator.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\associated_legendre_polynomials_generator.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\profilermessages\\module.profilermessages.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\profilermessages\\definitions.profilermessages.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\profilermessages\\uht\\profilermessages.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\profilermessages\\uht\\profilerservicemessages.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilermessages\\public\\profilerservicemessages.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\profilermessages\\uht\\profilerservicemessages.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilermessages\\private\\profilermessagesmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

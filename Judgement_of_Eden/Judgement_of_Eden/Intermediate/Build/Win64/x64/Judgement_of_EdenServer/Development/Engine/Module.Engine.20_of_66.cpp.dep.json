@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\module.engine.20_of_66.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\pch.engine.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skeletalmeshsocket.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\skeletalmeshsocket.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skeletalmeshsocket.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archiveuobjectfromstructuredarchive.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skinnedmeshcomponent.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skylight.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\skylight.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skylight.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skylightcomponent.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\components\\skylightcomponent.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\components\\lightcomponentbase.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\lightcomponentbase.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\skylightcomponent.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\sminstancemanager.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\elements\\sminstance\\sminstancemanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\elements\\sminstance\\sminstanceelementid.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\instancedstaticmeshdelegates.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\sminstanceelementid.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\sminstancemanager.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\soundattenuation.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

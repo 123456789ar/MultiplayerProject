@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\avfmediafactory\\module.avfmediafactory.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\avfmediafactory\\definitions.avfmediafactory.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\avfmediafactory\\uht\\avfmediafactory.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\avfmediafactory\\uht\\avfmediasettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\avfmedia\\source\\avfmediafactory\\public\\avfmediasettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\avfmediafactory\\uht\\avfmediasettings.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\avfmedia\\source\\avfmediafactory\\private\\avfmediafactoryclasses.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\avfmedia\\source\\avfmediafactory\\private\\avfmediafactorymodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\avfmedia\\source\\avfmediafactory\\private\\avfmediafactoryprivate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediamodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediaplayerfactory.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\avfmedia\\source\\avfmedia\\public\\iavfmediamodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

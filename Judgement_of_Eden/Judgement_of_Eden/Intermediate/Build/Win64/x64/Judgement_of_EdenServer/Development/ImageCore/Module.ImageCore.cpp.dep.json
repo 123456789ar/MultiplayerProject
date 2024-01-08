@@ -1,0 +1,39 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imagecore\\module.imagecore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imagecore\\definitions.imagecore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\private\\ddsfile.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\public\\ddsfile.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\public\\imagecore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\private\\imagecore.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\parallelfor.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\colormanagement\\public\\transferfunctions.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\colormanagement\\public\\colormanagementdefines.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\colormanagement\\public\\colorspace.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\private\\imagecoretest.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\public\\guardedint.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\automationtest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\async.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\private\\imagecoreutils.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\imagecore\\public\\imagecoreutils.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\texturedefines.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\texturedefines.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\pixelformat.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\significancemanager\\module.significancemanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\significancemanager\\definitions.significancemanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\significancemanager\\uht\\significancemanager.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\significancemanager\\source\\significancemanager\\private\\significancemanager.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\significancemanager\\source\\significancemanager\\public\\significancemanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\significancemanager\\uht\\significancemanager.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\canvas.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\canvasitem.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\font.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\fontimportoptions.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\fontimportoptions.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slatecore\\public\\fonts\\fontproviderinterface.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\slatecore\\uht\\fontproviderinterface.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\font.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\canvastypes.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\canvastypes.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\canvas.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\hud.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\significancemanager\\uht\\significancemanager.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\console.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\consolesettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\consolesettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\console.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

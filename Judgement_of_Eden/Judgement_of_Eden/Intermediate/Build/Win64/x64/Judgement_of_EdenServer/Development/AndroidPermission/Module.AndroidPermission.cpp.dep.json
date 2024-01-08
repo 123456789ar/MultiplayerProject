@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\androidpermission\\module.androidpermission.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\androidpermission\\definitions.androidpermission.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidpermission\\uht\\androidpermission.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermission.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\public\\androidpermission.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\classes\\androidpermissionfunctionlibrary.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidpermission\\uht\\androidpermissionfunctionlibrary.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\classes\\androidpermissioncallbackproxy.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidpermission\\uht\\androidpermissioncallbackproxy.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermissioncallbackproxy.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidpermission\\uht\\androidpermissioncallbackproxy.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidpermission\\source\\androidpermission\\private\\androidpermissionfunctionlibrary.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidpermission\\uht\\androidpermissionfunctionlibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

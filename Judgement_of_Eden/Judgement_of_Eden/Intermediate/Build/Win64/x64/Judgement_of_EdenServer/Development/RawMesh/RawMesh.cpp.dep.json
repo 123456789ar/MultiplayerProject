@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rawmesh\\private\\rawmesh.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\rawmesh\\definitions.rawmesh.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rawmesh\\public\\rawmesh.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\serialization\\bulkdata.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\asyncfilehandle.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\serialization\\bulkdatabuffer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\io\\iochunkid.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\io\\iodispatcherpriority.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\io\\packageid.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\misc\\packagesegment.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\customversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\fileregions.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\pixelformat.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\templates\\dontcopy.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\bufferwriter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\serialization\\bulkdatareader.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

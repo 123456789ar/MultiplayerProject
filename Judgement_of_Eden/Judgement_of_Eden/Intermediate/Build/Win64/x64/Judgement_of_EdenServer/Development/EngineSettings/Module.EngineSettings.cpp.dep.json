@@ -1,0 +1,38 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\enginesettings\\module.enginesettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\enginesettings\\definitions.enginesettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\consolesettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\consolesettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\consolesettings.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\enginesettings.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamemapssettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\gamemapssettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamemapssettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamenetworkmanagersettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\gamenetworkmanagersettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamenetworkmanagersettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamesessionsettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\gamesessionsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\gamesessionsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\generalenginesettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\generalenginesettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\generalenginesettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\generalprojectsettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\generalprojectsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\generalprojectsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\hudsettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\classes\\hudsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\enginesettings\\uht\\hudsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\enginesettings\\private\\enginesettingsmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

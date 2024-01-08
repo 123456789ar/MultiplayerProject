@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\editoranalyticssession\\module.editoranalyticssession.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\editoranalyticssession\\definitions.editoranalyticssession.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\editoranalyticssession\\private\\editoranalyticssession.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\editoranalyticssession\\public\\editoranalyticssession.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\engineversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\editoranalyticssession\\private\\editorsessionsummarysender.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\editoranalyticssession\\public\\editorsessionsummarysender.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

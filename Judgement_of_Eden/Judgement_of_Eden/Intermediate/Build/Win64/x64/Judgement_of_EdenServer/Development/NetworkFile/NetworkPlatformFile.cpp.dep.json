@@ -1,0 +1,40 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkfile\\private\\networkplatformfile.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\networkfile\\definitions.networkfile.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkfile\\public\\networkplatformfile.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\containers\\spscqueue.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\networkmessage.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\arrayreader.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\bufferarchive.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\servertoc.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\scopedevent.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\stats\\statsmisc.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\localtimestampdirectoryvisitor.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\deriveddatacache\\public\\deriveddatacacheinterface.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\asciiset.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\deriveddatacache\\public\\deriveddatacachemodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\misc\\packagename.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\pathviews.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\socketsubsystem.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\addressinfotypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\ipaddress.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\sockettypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packetview.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\common\\public\\net\\common\\sockets\\socketerrors.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packettraits.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\cookonthefly\\internal\\cookonthefly.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\cookonthefly\\internal\\cookontheflymessages.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\io\\packagestore.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\io\\packageid.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

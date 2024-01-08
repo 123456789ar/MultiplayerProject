@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\matchfinder\\module.matchfinder.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\matchfinder\\definitions.matchfinder.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinder\\uht\\matchfinder.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinder\\uht\\matchfindersubsystem.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinder\\source\\matchfinder\\public\\matchfindersubsystem.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4endpoint.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4address.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4subnetmask.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\socketsubsystem.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\addressinfotypes.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinder\\uht\\matchfindersubsystem.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinder\\source\\matchfinder\\private\\matchfinder.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinder\\source\\matchfinder\\public\\matchfinder.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinder\\source\\matchfinder\\private\\matchfindersubsystem.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networking\\public\\common\\tcpsocketbuilder.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\sockets\\public\\sockets.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\renderer\\module.renderer.26_of_26.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\renderer\\definitions.renderer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtexturetest.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtexturetest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtexturespace.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtextureshared.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtexturephysicalspace.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\texturepagepool.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\containers\\binaryheap.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\texturepagemap.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\vt\\virtualtextureallocator.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rendercore\\public\\rendertargetpool.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\widecustomresolveshaders.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\private\\widecustomresolveshaders.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rhi\\public\\datadrivenshaderplatforminfo.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

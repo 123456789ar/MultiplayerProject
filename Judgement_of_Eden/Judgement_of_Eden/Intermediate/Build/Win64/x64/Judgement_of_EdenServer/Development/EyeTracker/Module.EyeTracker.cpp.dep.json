@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\eyetracker\\module.eyetracker.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\eyetracker\\definitions.eyetracker.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\eyetracker\\uht\\eyetracker.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\private\\eyetrackerfunctionlibrary.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\public\\eyetrackerfunctionlibrary.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\public\\eyetrackertypes.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\eyetracker\\uht\\eyetrackertypes.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\public\\ieyetracker.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\eyetracker\\uht\\eyetrackerfunctionlibrary.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\eyetracker\\uht\\eyetrackerfunctionlibrary.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\private\\eyetrackermodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\public\\ieyetrackermodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\eyetracker\\private\\eyetrackertypes.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\eyetracker\\uht\\eyetrackertypes.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

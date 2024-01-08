@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\profilerservice\\module.profilerservice.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\profilerservice\\definitions.profilerservice.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\private\\profilerservicefiletransfer.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagecontext.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilermessages\\public\\profilerservicemessages.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\profilermessages\\uht\\profilerservicemessages.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\public\\iprofilerservicemanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\private\\profilerservicemanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messagingcommon\\public\\messageendpoint.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\containers\\arraybuilder.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessageattachment.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagebus.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagehandler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagereceiver.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagesender.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagebuslistener.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\private\\profilerservicemanager.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messagingcommon\\public\\messageendpointbuilder.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messaging\\public\\imessagingmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\messagingcommon\\public\\messagehandlers.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\stats\\statsdata.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\stats\\statsfile.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\tasks\\pipe.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\tasks\\task.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\private\\profilerservicemodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilerservice\\public\\iprofilerservicemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

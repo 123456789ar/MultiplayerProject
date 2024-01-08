@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_Eden\\Judgement_of_Eden.Build.cs",
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Plugins\\MatchFinderServerManager\\Source\\MatchFinderServerManager\\MatchFinderServerManager.Build.cs",
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Plugins\\MatchFinder\\Source\\MatchFinder\\MatchFinder.Build.cs",
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_Eden.Target.cs",
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_EdenEditor.Target.cs",
+		"C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_EdenServer.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

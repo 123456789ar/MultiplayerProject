@@ -1,0 +1,19 @@
+{
+	"Targets": [
+		{
+			"Name": "Judgement_of_Eden",
+			"Path": "C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_Eden.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Judgement_of_EdenEditor",
+			"Path": "C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_EdenEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "Judgement_of_EdenServer",
+			"Path": "C:\\Respos\\MultiplayerProject\\Judgement_of_Eden\\Judgement_of_Eden\\Source\\Judgement_of_EdenServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}

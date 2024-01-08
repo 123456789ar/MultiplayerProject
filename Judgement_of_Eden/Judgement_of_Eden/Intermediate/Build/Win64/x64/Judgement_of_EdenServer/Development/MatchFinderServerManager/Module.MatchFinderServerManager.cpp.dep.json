@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\matchfinderservermanager\\module.matchfinderservermanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\matchfinderservermanager\\definitions.matchfinderservermanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinderservermanager\\uht\\matchfinderservermanager.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinderservermanager\\uht\\matchmadeinstancesubsystem.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinderservermanager\\source\\matchfinderservermanager\\public\\matchmadeinstancesubsystem.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\matchfinderservermanager\\uht\\matchmadeinstancesubsystem.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinderservermanager\\source\\matchfinderservermanager\\private\\matchfinderservermanager.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinderservermanager\\source\\matchfinderservermanager\\public\\matchfinderservermanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\plugins\\matchfinderservermanager\\source\\matchfinderservermanager\\private\\matchmadeinstancesubsystem.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

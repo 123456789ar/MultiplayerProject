@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C308700-2BD0-36CD-B5AA-2430806BDF2E}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealMultiUserSlateServer</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat UnrealMultiUserSlateServer Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat UnrealMultiUserSlateServer Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat UnrealMultiUserSlateServer Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Binaries\Win64\UnrealMultiUserSlateServer-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat UnrealMultiUserSlateServer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat UnrealMultiUserSlateServer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat UnrealMultiUserSlateServer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Binaries\Win64\UnrealMultiUserSlateServer-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat UnrealMultiUserSlateServer Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat UnrealMultiUserSlateServer Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat UnrealMultiUserSlateServer Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Binaries\Win64\UnrealMultiUserSlateServer.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat UnrealMultiUserSlateServer Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat UnrealMultiUserSlateServer Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat UnrealMultiUserSlateServer Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Binaries\Win64\UnrealMultiUserSlateServer-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat UnrealMultiUserSlateServer Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat UnrealMultiUserSlateServer Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat UnrealMultiUserSlateServer Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Binaries\Win64\UnrealMultiUserSlateServer-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\Respos\MultiplayerProject\Engine\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Launch\Private;C:\Respos\MultiplayerProject\Engine\Source\Programs\UnrealMultiUserSlateServer\Private;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Core\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Core\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\TraceLog\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Core\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceLog\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceLog\VNI;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\CoreUObject\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\CoreUObject\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\CoreUObject\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Concert\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Concert\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\Concert\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Source;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertTransport\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertTransport\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertTransport\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\MessagingCommon\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\MessagingCommon\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\MessagingCommon\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Messaging\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Messaging\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Messaging\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Serialization\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Serialization\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Serialization\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Json\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Json\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Json\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Cbor\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Cbor\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Cbor\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertServer\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertServer\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertServer\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceInsights\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceInsights\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\TraceInsights\Public;C:\Respos\MultiplayerProject\Engine\Source\Developer;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\AppFramework\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\AppFramework\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\AppFramework\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ApplicationCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ApplicationCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\ApplicationCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\RHI\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\RHI\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\RHI\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Slate\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Slate\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Slate\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\InputCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\InputCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\InputCore\Classes;C:\Respos\MultiplayerProject\Engine\Source\Runtime\InputCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\SlateCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\SlateCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SlateCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ImageWrapper\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ImageWrapper\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\ImageWrapper\Public;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ImageCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ImageCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\ImageCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\DesktopPlatform\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\DesktopPlatform\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\DesktopPlatform\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\RenderCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\RenderCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\RenderCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Sockets\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Sockets\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Sockets\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\NetCommon\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\NetCommon\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Net\Common\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Net;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\SourceCodeAccess\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\SourceCodeAccess\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\SourceCodeAccess\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Settings\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Settings\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\Settings\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceAnalysis\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceAnalysis\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\TraceAnalysis\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceServices\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\TraceServices\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\TraceServices\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\WorkspaceMenuStructure\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\WorkspaceMenuStructure\VNI;C:\Respos\MultiplayerProject\Engine\Source\Editor\WorkspaceMenuStructure\Public;C:\Respos\MultiplayerProject\Engine\Source\Editor;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\XmlParser\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\XmlParser\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\XmlParser\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Projects\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Projects\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Projects\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Launch\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\Launch\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Launch\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ProfilerService\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ProfilerService\VNI;C:\Respos\MultiplayerProject\Engine\Source\Developer\ProfilerService\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertSyncCore\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\ConcertSyncCore\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Source\ConcertSyncCore\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Source;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\CncrtSyncSvr\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\CncrtSyncSvr\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Source\ConcertSyncServer\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Source;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserServer\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\MultiUserServer\UHT;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserServer\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\MultiUserServer\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserServer\Source\MultiUserServer\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserServer\Source;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\UnrealMultiUserSlateServer\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\UnrealMultiUserSlateServer\Inc\UnrealMultiUserSlateServer\VNI;C:\Respos\MultiplayerProject\Engine\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\UnrealMultiUserSlateServer.Target.cs"/>
+    <None Include="..\..\..\..\Engine\Programs\UnrealMultiUserSlateServer\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\UnrealMultiUserSlateServer.Build.cs"/>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\UnrealMultiUserSlateServerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\UnrealMultiUserSlateServer\Development\UnrealMultiUserSlateServer\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\UnrealMultiUserSlateServerRun.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\UnrealMultiUserSlateServer\Development\UnrealMultiUserSlateServer\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\UnrealMultiUserSlateServerRun.h"/>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\Linux\LinuxUnrealMultiUserSlateServerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\UnrealMultiUserSlateServer\Development\UnrealMultiUserSlateServer\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\Mac\MacUnrealMultiUserSlateServerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\UnrealMultiUserSlateServer\Development\UnrealMultiUserSlateServer\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Private\Windows\WindowsUnrealMultiUserSlateServerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source\Win64;C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\LibTiff\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\UnrealMultiUserSlateServer\Development\UnrealMultiUserSlateServer\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Linux\UnrealMultiUserSlateServer.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\Info.plist"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\make_icns.sh"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.icns"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_128x128.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_128x128@2x.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_16x16.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_16x16@2x.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_256x256.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_256x256@2x.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_32x32.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_32x32@2x.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_512x512.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Mac\UnrealMultiUserSlateServer.iconset\icon_512x512@2x.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\make_ico.py"/>
+    <ResourceCompile Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer.rc"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer_2.ico"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer\icon_16x16.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer\icon_24x24.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer\icon_256x256.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer\icon_32x32.png"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\UnrealMultiUserSlateServer\Resources\Windows\UnrealMultiUserSlateServer\icon_48x48.png"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

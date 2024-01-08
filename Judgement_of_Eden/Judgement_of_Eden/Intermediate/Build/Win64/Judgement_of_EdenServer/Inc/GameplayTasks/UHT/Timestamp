@@ -1,0 +1,8 @@
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskResource.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTasksComponent.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\Tasks\GameplayTask_ClaimResource.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\Tasks\GameplayTask_SpawnActor.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\Tasks\GameplayTask_TimeLimitedExecution.h
+C:\Respos\MultiplayerProject\Engine\Source\Runtime\GameplayTasks\Classes\Tasks\GameplayTask_WaitDelay.h

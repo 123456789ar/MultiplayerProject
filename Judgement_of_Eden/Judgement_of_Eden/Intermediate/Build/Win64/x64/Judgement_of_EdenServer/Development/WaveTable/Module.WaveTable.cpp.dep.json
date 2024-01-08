@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\wavetable\\module.wavetable.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\wavetable\\definitions.wavetable.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetable.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablebank.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablebank.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetable.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetabletransform.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablesettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetablesettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetabletransform.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetablebank.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\objectsavecontext.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetablebank.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetableimporter.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetableimporter.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablesampler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablelogging.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablelogging.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablemodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablemodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablesampler.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablesettings.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetablesettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetabletransform.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\wavetable\\uht\\wavetabletransform.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

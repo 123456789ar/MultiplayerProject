@@ -1,0 +1,29 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\realtimeprofiler\\module.realtimeprofiler.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\realtimeprofiler\\definitions.realtimeprofiler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\realtimeprofiler.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\realtimeprofiler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilevisualizer\\public\\visualizerevents.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilerframe.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilerframe.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilerlinegraph.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilerlinegraph.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilervisualizer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilertimeline.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilertimeline.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\input\\sslider.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilevisualizer\\public\\stimeline.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\realtimeprofiler\\private\\srealtimeprofilervisualizer.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilevisualizer\\public\\sbarvisualizer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\profilevisualizer\\public\\seventstree.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\views\\streeview.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

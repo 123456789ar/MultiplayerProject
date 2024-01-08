@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\androidfileserver\\module.androidfileserver.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\androidfileserver\\definitions.androidfileserver.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidfileserver\\uht\\androidfileserver.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\private\\androidfileserver.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\public\\androidfileserver.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\private\\androidfileserverbplibrary.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\androidfileserver\\source\\androidfileserver\\classes\\androidfileserverbplibrary.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidfileserver\\uht\\androidfileserverbplibrary.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\androidfileserver\\uht\\androidfileserverbplibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

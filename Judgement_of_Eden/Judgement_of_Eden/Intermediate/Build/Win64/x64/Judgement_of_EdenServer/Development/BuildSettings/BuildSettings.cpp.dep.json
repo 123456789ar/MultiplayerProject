@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\buildsettings\\private\\buildsettings.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\buildsettings\\definitions.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\buildsettings\\public\\buildsettings.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\coretypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\build.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\largeworldcoordinates.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\preprocessorhelpers.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcompilerpresetup.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformcompilerpresetup.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatform.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcodeanalysis.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatform.h",
+            "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\sal.h",
+            "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\concurrencysal.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\msvc\\msvcplatform.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformcompilersetup.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\umemorydefines.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\coremiscdefines.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\coredefines.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

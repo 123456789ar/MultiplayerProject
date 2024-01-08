@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\niagaracore\\module.niagaracore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\niagaracore\\definitions.niagaracore.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaracore.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaracore.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaracore.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaracore.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaradatainterfacebase.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaradatainterfacebase.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaramergeable.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaramergeable.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaradatainterfacebase.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\private\\niagaracompilehash.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaracompilehash.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaracompilehash.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaracompilehash.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\private\\niagaracoremodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaracoremodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\private\\niagaracustomversion.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\public\\niagaracustomversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\fx\\niagara\\source\\niagaracore\\private\\niagaramergeable.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\niagaracore\\uht\\niagaramergeable.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

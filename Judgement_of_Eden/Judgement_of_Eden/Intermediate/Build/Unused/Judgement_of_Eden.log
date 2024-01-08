@@ -1,0 +1,61 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="Judgement_of_EdenEditor Win64 Development -Project=\"C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Judgement_of_Eden.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+  Log file: C:\Respos\MultiplayerProject\Engine\Programs\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Respos\MultiplayerProject).
+  Creating makefile for Judgement_of_EdenEditor (no existing makefile)
+  Parsing headers for Judgement_of_EdenEditor
+    Running Internal UnrealHeaderTool C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Judgement_of_Eden.uproject C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\Judgement_of_EdenEditor\Development\Judgement_of_EdenEditor.uhtmanifest -WarningsAsErrors
+  Total of 20 written
+  Reflection code generated for Judgement_of_EdenEditor in 14.2048612 seconds
+  Creating makefile for ShaderCompileWorker (no existing makefile)
+  Building Judgement_of_EdenEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.29.30152 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Notice: Visual Studio 2019 will no longer be supported for the installed engine in UE 5.3. Compiling code for Microsoft platforms will require Visual Studio 2022 in UE 5.4 and beyond.
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in Judgement_of_EdenEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+    Requested 1.5 GB free memory per action, 3.49 GB available: limiting max parallel actions to 2
+  Building 29 actions with 2 processes...
+  [1/29] Compile [x64] WeaponDamageComponent.gen.cpp
+  [2/29] Compile [x64] JoE_C_Stats.cpp
+  [3/29] Compile [x64] EdenTear.cpp
+  [4/29] Compile [x64] Judgement_of_Eden.cpp
+  [5/29] Compile [x64] JoE_C_Stats.gen.cpp
+  [6/29] Compile [x64] C_Character.gen.cpp
+  [7/29] Compile [x64] WeaponDamageComponent.cpp
+  [8/29] Compile [x64] EdenFlame.gen.cpp
+  [9/29] Compile [x64] EdenFlame.cpp
+  [10/29] Compile [x64] Module.MatchFinderServerManager.cpp
+  [11/29] Compile [x64] Judgement_of_EdenHUD.cpp
+C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Source\Judgement_of_Eden\Judgement_of_EdenHUD.cpp(31): warning C4996: 'UTexture::Resource': Use GetResource() / SetResource() accessors instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  [12/29] Compile [x64] Judgement_of_EdenHUD.gen.cpp
+  [13/29] Compile [x64] Judgement_of_Eden.init.gen.cpp
+  [14/29] Compile [x64] HealthBarWidget.cpp
+  [15/29] Compile [x64] Judgement_of_EdenGameModeBase.gen.cpp
+  [16/29] Compile [x64] C_Character.cpp
+  [17/29] Compile [x64] Module.MatchFinder.cpp
+  [18/29] Compile [x64] HealthBarWidget.gen.cpp
+  [19/29] Compile [x64] Judgement_of_EdenGameModeBase.cpp
+  [20/29] Compile [x64] EdenTear.gen.cpp
+  [21/29] Compile [x64] EOS_GameInstance.gen.cpp
+  [22/29] Link [x64] UnrealEditor-MatchFinderServerManager.lib
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinderServerManager\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinderServerManager\UnrealEditor-MatchFinderServerManager.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinderServerManager\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinderServerManager\UnrealEditor-MatchFinderServerManager.exp
+  [23/29] Compile [x64] EOS_GameInstance.cpp
+  [24/29] Link [x64] UnrealEditor-MatchFinderServerManager.dll
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinderServerManager\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinderServerManager\UnrealEditor-MatchFinderServerManager.suppressed.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinderServerManager\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinderServerManager\UnrealEditor-MatchFinderServerManager.suppressed.exp
+  [25/29] Link [x64] UnrealEditor-MatchFinder.lib
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\UnrealEditor-MatchFinder.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\UnrealEditor-MatchFinder.exp
+  [26/29] Link [x64] UnrealEditor-MatchFinder.dll
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\UnrealEditor-MatchFinder.suppressed.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\UnrealEditor-MatchFinder.suppressed.exp
+  [27/29] Link [x64] UnrealEditor-Judgement_of_Eden.lib
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\x64\UnrealEditor\Development\Judgement_of_Eden\UnrealEditor-Judgement_of_Eden.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\x64\UnrealEditor\Development\Judgement_of_Eden\UnrealEditor-Judgement_of_Eden.exp
+  [28/29] Link [x64] UnrealEditor-Judgement_of_Eden.dll
+     Creating library C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\x64\UnrealEditor\Development\Judgement_of_Eden\UnrealEditor-Judgement_of_Eden.suppressed.lib and object C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\x64\UnrealEditor\Development\Judgement_of_Eden\UnrealEditor-Judgement_of_Eden.suppressed.exp
+  [29/29] WriteMetadata Judgement_of_EdenEditor.target
+  Total time in Parallel executor: 33.67 seconds
+  Total execution time: 75.01 seconds

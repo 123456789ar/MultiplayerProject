@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Judgement_of_Eden.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Judgement_of_Eden.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Judgement_of_EdenEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Judgement_of_EdenServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MatchFinderServerManager">
+      <UniqueIdentifier>{0CA65875-1153-35CB-9959-E4DD3CA986D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MatchFinderServerManager\Source">
+      <UniqueIdentifier>{B2FB130F-8335-38BF-91A6-9DF0722B7F49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MatchFinderServerManager\Source\MatchFinderServerManager">
+      <UniqueIdentifier>{40B0E8AA-BFA2-3E8A-8C4A-003DC77FD033}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\MatchFinderServerManager.Build.cs">
+      <Filter>Plugins\MatchFinderServerManager\Source\MatchFinderServerManager</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Private">
+      <UniqueIdentifier>{52C31820-1286-31D2-A742-C032DDDA2C57}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Private\MatchFinderServerManager.cpp">
+      <Filter>Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Private\MatchmadeInstanceSubsystem.cpp">
+      <Filter>Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Public">
+      <UniqueIdentifier>{B367FF96-24E6-3FCF-9530-1623BC4FD3C9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Public\MatchFinderServerManager.h">
+      <Filter>Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Public\MatchmadeInstanceSubsystem.h">
+      <Filter>Plugins\MatchFinderServerManager\Source\MatchFinderServerManager\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\MatchFinderServerManager\MatchFinderServerManager.uplugin">
+      <Filter>Plugins\MatchFinderServerManager</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinderServerManager\Resources">
+      <UniqueIdentifier>{5447D7B3-78D3-39B0-BC93-5F8D3C50CD7D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MatchFinderServerManager\Resources\Icon128.png">
+      <Filter>Plugins\MatchFinderServerManager\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinder">
+      <UniqueIdentifier>{3B73C37E-01A5-321E-B6A8-3BB56073B35D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MatchFinder\MatchFinder.uplugin">
+      <Filter>Plugins\MatchFinder</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinder\Resources">
+      <UniqueIdentifier>{A7BA0C5E-09F8-3797-A7A2-DAF8A8C43FAF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MatchFinder\Resources\Icon128.png">
+      <Filter>Plugins\MatchFinder\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinder\Source">
+      <UniqueIdentifier>{DF6A788C-89CE-3A9C-9AFC-66E45800A325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\MatchFinder\Source\MatchFinder">
+      <UniqueIdentifier>{1A9ED4A5-9678-3191-9D63-5EC7172CB0B2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MatchFinder\Source\MatchFinder\MatchFinder.Build.cs">
+      <Filter>Plugins\MatchFinder\Source\MatchFinder</Filter>
+    </None>
+    <Filter Include="Plugins\MatchFinder\Source\MatchFinder\Private">
+      <UniqueIdentifier>{28B8EA51-FE83-39DD-887B-2446A1DB32B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\MatchFinder\Source\MatchFinder\Private\MatchFinder.cpp">
+      <Filter>Plugins\MatchFinder\Source\MatchFinder\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\MatchFinder\Source\MatchFinder\Private\MatchFinderSubsystem.cpp">
+      <Filter>Plugins\MatchFinder\Source\MatchFinder\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\MatchFinder\Source\MatchFinder\Public">
+      <UniqueIdentifier>{DC830BE9-BBCE-39D6-99F6-35B3EBFCC286}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\MatchFinder\Source\MatchFinder\Public\MatchFinder.h">
+      <Filter>Plugins\MatchFinder\Source\MatchFinder\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\MatchFinder\Source\MatchFinder\Public\MatchFinderSubsystem.h">
+      <Filter>Plugins\MatchFinder\Source\MatchFinder\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Judgement_of_Eden">
+      <UniqueIdentifier>{87C96422-7197-3E89-80C9-A713F7871A79}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\C_Character.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\C_Character.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\EdenFlame.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\EdenFlame.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\EdenTear.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\EdenTear.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\EOS_GameInstance.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\EOS_GameInstance.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\HealthBarWidget.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\HealthBarWidget.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\JoE_C_Stats.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\JoE_C_Stats.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Judgement_of_Eden\Judgement_of_Eden.Build.cs">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\Judgement_of_Eden.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\Judgement_of_Eden.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\Judgement_of_EdenGameModeBase.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\Judgement_of_EdenGameModeBase.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\Judgement_of_EdenHUD.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\Judgement_of_EdenHUD.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Judgement_of_Eden\WeaponDamageComponent.cpp">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Judgement_of_Eden\WeaponDamageComponent.h">
+      <Filter>Source\Judgement_of_Eden</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

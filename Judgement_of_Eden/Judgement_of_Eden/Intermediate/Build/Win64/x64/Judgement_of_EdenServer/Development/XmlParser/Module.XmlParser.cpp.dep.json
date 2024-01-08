@@ -1,0 +1,34 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\xmlparser\\module.xmlparser.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\core\\sharedpch.core.shadowerrors.typecasterrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\xmlparser\\definitions.xmlparser.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\private\\fastxml.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\public\\fastxml.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\private\\xmlfile.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\public\\xmlfile.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\public\\xmlnode.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\private\\xmlfile.spec.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\automationtest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\async.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\runnablethread.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\threadsafebool.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\private\\xmlnode.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\private\\xmlparser.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\xmlparser\\public\\xmlparser.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\landmass\\module.landmass.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\landmass\\definitions.landmass.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\landmass.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\brusheffectslist.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\brusheffectslist.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\brusheffectslist.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\brusheffectslist.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\falloffsettings.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\falloffsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\falloffsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\falloffsettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\landmassmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\landmassmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\terraincarvingsettings.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\terraincarvingsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\terraincarvingsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\landmass\\uht\\terraincarvingsettings.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\installbundlemanager\\module.installbundlemanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\installbundlemanager\\definitions.installbundlemanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\bundleprereqcombinedstatushelper.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\bundleprereqcombinedstatushelper.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\installbundlemanagerinterface.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\containers\\union.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\installbundletypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundlemanagerprivate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\installbundleutils.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\embeddedcommunication.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundlecache.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\installbundlecache.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundlemanagerinterface.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\public\\installbundlemanagermodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundlemanagermodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundletypes.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\installbundlemanager\\private\\installbundleutils.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\applicationcore\\public\\hal\\platformapplicationmisc.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\applicationcore\\public\\windows\\windowsplatformapplicationmisc.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\genericplatformapplicationmisc.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

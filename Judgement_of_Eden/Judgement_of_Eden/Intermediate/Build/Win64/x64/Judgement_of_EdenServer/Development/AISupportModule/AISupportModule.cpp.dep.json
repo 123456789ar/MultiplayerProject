@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\plugins\\ai\\aisupport\\source\\aisupportmodule\\private\\aisupportmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\aisupportmodule\\definitions.aisupportmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\ai\\aisupport\\source\\aisupportmodule\\public\\aisupportmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\navigationsystem\\public\\navfilters\\navigationqueryfilter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\navigationsystem\\public\\navareas\\navarea.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\navareabase.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\navareabase.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\navigationsystem\\uht\\navarea.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\navigationsystem\\uht\\navigationqueryfilter.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\ai\\navigationsystemconfig.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\navigationsystemconfig.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\aimodule\\uht\\aitypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

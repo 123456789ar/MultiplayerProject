@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\automationutils\\module.automationutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\automationutils\\definitions.automationutils.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\automationutils\\uht\\automationutils.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\private\\automationutils.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\private\\automationutilsblueprintlibrary.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\experimental\\automationutils\\source\\automationutils\\public\\automationutilsblueprintlibrary.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\automationutils\\uht\\automationutilsblueprintlibrary.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\assetcompilingmanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\assetcompilingmanager.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\sceneviewextension.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\sceneviewextensioncontext.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\sceneviewextensioncontext.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\scenetexturesconfig.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rendercore\\public\\gbufferinfo.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\imageutils.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\hardwareinfo.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\gameengine.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\moviescenecapture\\public\\moviescenecapturehandle.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\gameengine.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\automationutils\\uht\\automationutilsblueprintlibrary.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

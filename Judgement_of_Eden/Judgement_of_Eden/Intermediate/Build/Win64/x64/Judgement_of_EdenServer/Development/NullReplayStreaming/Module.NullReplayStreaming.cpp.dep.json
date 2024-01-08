@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\nullreplaystreaming\\module.nullreplaystreaming.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\nullreplaystreaming\\definitions.nullnetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\private\\nullnetworkreplaystreaming.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\public\\nullnetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\nullnetworkreplaystreaming\\private\\nullnetworkreplaystreamingmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\perfcounters\\module.perfcounters.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\perfcounters\\definitions.perfcounters.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\private\\perfcounters.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\private\\perfcounters.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\public\\perfcountersmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\histogram.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpresultcallback.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverresponse.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverconstants.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverhttpversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httppath.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httprequesthandler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httproutehandle.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpserverrequest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformoutputdevices.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformoutputdevices.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformoutputdevices.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformmemoryhelpers.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\policies\\prettyjsonprintpolicy.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\policies\\jsonprintpolicy.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\private\\zeroload.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\httpservermodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\httpserver\\public\\ihttprouter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\private\\perfcountersmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\perfcounters\\private\\zeroload.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

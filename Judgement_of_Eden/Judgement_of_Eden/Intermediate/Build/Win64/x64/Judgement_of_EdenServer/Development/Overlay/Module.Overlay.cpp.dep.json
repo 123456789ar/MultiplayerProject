@@ -1,0 +1,31 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\overlay\\module.overlay.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\overlay\\definitions.overlay.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\overlay.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\overlays.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\public\\overlays.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\overlays.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\private\\assets\\basicoverlays.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\public\\basicoverlays.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\basicoverlays.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\basicoverlays.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\private\\assets\\localizedoverlays.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\public\\localizedoverlays.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\localizedoverlays.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\internationalization\\culture.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\overlay\\uht\\localizedoverlays.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\private\\factories\\overlaysimporter.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\public\\overlaysimporter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\private\\overlaymodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\private\\overlayprivate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\overlay\\public\\ioverlaymodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

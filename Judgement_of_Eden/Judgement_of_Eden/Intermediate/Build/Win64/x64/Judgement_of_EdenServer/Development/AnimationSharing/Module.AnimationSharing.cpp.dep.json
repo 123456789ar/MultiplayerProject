@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\animationsharing\\module.animationsharing.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\animationsharing\\definitions.animationsharing.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharing.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingtypes.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingtypes.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingtypes.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\additiveanimationinstance.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\additiveanimationinstance.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharinginstances.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharinginstances.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingmanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingmanager.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharinginstances.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharinginstances.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingmanager.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\transitionblendinstance.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\significancemanager\\source\\significancemanager\\public\\significancemanager.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\significancemanager\\uht\\significancemanager.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\public\\animationsharingsetup.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingsetup.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingmanager.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\animationsharingsetup.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\animationsharing\\uht\\animationsharingsetup.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\animationsharing\\source\\animationsharing\\private\\transitionblendinstance.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

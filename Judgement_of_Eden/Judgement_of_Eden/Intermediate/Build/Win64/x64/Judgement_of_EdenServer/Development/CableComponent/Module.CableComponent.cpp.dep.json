@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\cablecomponent\\module.cablecomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\cablecomponent\\definitions.cablecomponent.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\cablecomponent\\uht\\cablecomponent.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cableactor.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\classes\\cableactor.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\cablecomponent\\uht\\cableactor.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\classes\\cablecomponent.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\cablecomponent\\uht\\cablecomponent.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\cablecomponent\\uht\\cableactor.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponent.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\materialdomain.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\materialdomain.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\materials\\materialrenderproxy.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponentstats.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\dynamicmeshbuilder.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\cablecomponent\\uht\\cablecomponent.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\cablecomponent\\source\\cablecomponent\\private\\cablecomponentplugin.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

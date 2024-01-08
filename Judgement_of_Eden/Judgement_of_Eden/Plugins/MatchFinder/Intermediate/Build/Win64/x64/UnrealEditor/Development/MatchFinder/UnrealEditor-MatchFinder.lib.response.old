@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MatchFinder.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Intermediate\Build\Win64\x64\Judgement_of_EdenEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\Module.MatchFinder.cpp.obj"
+"C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\Default.rc2.res"
+/OUT:"C:\Respos\MultiplayerProject\Judgement_of_Eden\Judgement_of_Eden\Plugins\MatchFinder\Intermediate\Build\Win64\x64\UnrealEditor\Development\MatchFinder\UnrealEditor-MatchFinder.lib"

@@ -1,0 +1,29 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\lfnrs\\module.lfnrs.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\lfnrs\\definitions.localfilenetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\lfnrs\\uht\\localfilenetworkreplaystreaming.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\localfilenetworkreplaystreaming\\private\\localfilenetworkreplaystreaming.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\localfilenetworkreplaystreaming\\public\\localfilenetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\arrayreader.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\arraywriter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\bufferarchive.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\lfnrs\\uht\\localfilenetworkreplaystreaming.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\scopedtimers.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\serialization\\largememoryreader.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemanagedstoragewrapper.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\algo\\indexof.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\lfnrs\\uht\\localfilenetworkreplaystreaming.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

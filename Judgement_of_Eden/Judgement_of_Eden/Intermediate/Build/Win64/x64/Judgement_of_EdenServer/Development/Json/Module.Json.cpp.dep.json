@@ -1,0 +1,41 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\json\\module.json.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\core\\sharedpch.core.shadowerrors.typecasterrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\json\\definitions.json.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\dom\\jsonobject.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\dom\\jsonobject.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\dom\\jsonvalue.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\jsonglobals.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\dom\\jsonvalue.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\jsonmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\jsonutils\\jsonpointer.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\jsonutils\\jsonpointer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\tests\\jsonpointer.spec.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\automationtest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\async.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\runnablethread.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\platformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformstackwalk.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\threadsafebool.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsonreader.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\policies\\prettyjsonprintpolicy.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\policies\\jsonprintpolicy.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\private\\tests\\jsontests.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\json\\public\\policies\\condensedjsonprintpolicy.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

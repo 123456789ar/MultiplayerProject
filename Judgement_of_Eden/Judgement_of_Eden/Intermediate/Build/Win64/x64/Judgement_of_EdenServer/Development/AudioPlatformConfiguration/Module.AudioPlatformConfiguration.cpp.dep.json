@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\audioplatformconfiguration\\module.audioplatformconfiguration.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\audioplatformconfiguration\\definitions.audioplatformconfiguration.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\audioplatformconfiguration\\uht\\audioplatformconfiguration.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audiocompressionsettings.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audiocompressionsettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\audioplatformconfiguration\\uht\\audiocompressionsettings.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\audioplatformconfiguration\\uht\\audiocompressionsettings.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audioplatformconfigurationmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audioplatformconfigurationmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\private\\audioresampler.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioplatformconfiguration\\public\\audioresampler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\thirdparty\\libsamplerate\\public\\samplerate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

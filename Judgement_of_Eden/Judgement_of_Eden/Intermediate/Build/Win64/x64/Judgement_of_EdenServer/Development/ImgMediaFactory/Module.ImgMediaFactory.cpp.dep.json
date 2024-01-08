@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imgmediafactory\\module.imgmediafactory.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imgmediafactory\\definitions.imgmediafactory.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediafactory\\uht\\imgmediafactory.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediafactory\\private\\imgmediafactorymodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediafactory\\private\\imgmediafactoryprivate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediamodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediaoptions.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediaplayerfactory.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediafactory\\public\\imgmediasettings.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediafactory\\uht\\imgmediasettings.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmedia\\public\\iimgmediamodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\csvprofiler.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\csvprofilerconfig.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\csvprofilertrace.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediafactory\\private\\imgmediasettings.cpp",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediafactory\\uht\\imgmediasettings.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

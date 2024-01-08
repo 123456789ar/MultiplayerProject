@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\settings\\module.settings.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\settings\\definitions.settings.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingscategory.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingscategory.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\public\\isettingscategory.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\public\\isettingssection.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\namepermissionlist.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingssection.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingscontainer.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingscontainer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\public\\isettingscontainer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingsmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\public\\isettingsviewer.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\reload.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\settings\\private\\settingssection.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\configcontext.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

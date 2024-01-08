@@ -1,0 +1,34 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\drawprimitivedebugger\\module.drawprimitivedebugger.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\drawprimitivedebugger\\definitions.drawprimitivedebugger.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\drawprimitivedebugger\\uht\\drawprimitivedebugger.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\private\\drawprimitivedebuggerconfig.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\public\\drawprimitivedebuggerconfig.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\drawprimitivedebugger\\uht\\drawprimitivedebuggerconfig.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\drawprimitivedebugger\\uht\\drawprimitivedebuggerconfig.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\private\\drawprimitivedebuggermodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\public\\drawprimitivedebugger.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\private\\sdrawprimitivedebugger.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\input\\ssearchbox.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\input\\seditabletextbox.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\input\\seditabletext.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\text\\islateeditabletextwidget.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\slate\\uht\\islateeditabletextwidget.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\public\\viewdebug.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\renderer\\public\\primitivesceneinfo.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\docking\\sdocktab.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\developer\\drawprimitivedebugger\\private\\sdrawprimitivedebugger.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\slateoptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slatecore\\public\\fonts\\fontmeasure.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\sscrollbox.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\slate\\uht\\sscrollbox.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

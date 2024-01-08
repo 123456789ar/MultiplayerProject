@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\httpreplaystreaming\\module.httpreplaystreaming.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\httpreplaystreaming\\definitions.httpnetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\httpreplaystreaming\\uht\\httpnetworkreplaystreaming.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\httpnetworkreplaystreaming\\private\\httpnetworkreplaystreaming.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\httpnetworkreplaystreaming\\public\\httpnetworkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\httpreplaystreaming\\uht\\httpnetworkreplaystreaming.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\profilingdebugging\\scopedtimers.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\httpreplaystreaming\\uht\\httpnetworkreplaystreaming.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

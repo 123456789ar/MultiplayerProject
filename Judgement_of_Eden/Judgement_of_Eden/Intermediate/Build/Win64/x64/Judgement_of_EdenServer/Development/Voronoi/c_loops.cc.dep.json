@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\c_loops.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.typecastwarnings.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\voronoi\\definitions.voronoi.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\c_loops.hh",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\experimental\\voronoi\\private\\voro++\\src\\config.hh"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

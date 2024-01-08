@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\module.coreuobject.12_of_12.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\pch.coreuobject.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjecthash.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\asciiset.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\async\\parallelfor.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\hal\\lowlevelmemstats.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\anypackageprivate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjectlinker.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjectmarks.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjectnetindex.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\uobjectthreadcontext.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\weakobjectptr.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objecthandletest.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectpropertytest.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectptrtest.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectreftrackingtestbase.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectptrtestclass.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\concepts\\equalitycomparable.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\serialization\\archivecountmem.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\internal\\uobject\\linkerloadimportbehavior.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\private\\uobject\\objectpathid.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectptrtestclass.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\objectreftrackingtestbase.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\serialization\\archivestacktracetests.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\serialization\\bulkdatatests.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\tests\\serialization\\deriveddatatest.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

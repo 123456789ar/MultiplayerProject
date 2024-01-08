@@ -1,0 +1,35 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imgmediaengine\\module.imgmediaengine.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\imgmediaengine\\definitions.imgmediaengine.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediaengine\\uht\\imgmediaengine.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediaengine\\private\\imgmediaenginemodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediaengine\\public\\imgmediaenginemodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediaengine\\private\\unreal\\imgmediaplaybackcomponent.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\media\\imgmedia\\source\\imgmediaengine\\public\\unreal\\imgmediaplaybackcomponent.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediaengine\\uht\\imgmediaplaybackcomponent.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\mediaassets\\public\\mediatexture.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\mediautils\\public\\mediasamplequeue.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediasamples.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediatimesource.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\mediautils\\public\\mediasamplesink.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\mediautils\\public\\mediasamplesource.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\media\\public\\imediatexturesample.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rendercore\\public\\hdrhelper.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\colormanagement\\public\\colormanagementdefines.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\colormanagement\\public\\colorspace.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rendercore\\public\\mediashaders.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\rendercore\\public\\shaderparameterstruct.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\mediaassets\\uht\\mediatexture.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\mediaassets\\public\\mediatexturetracker.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\mediaassets\\uht\\mediatexturetracker.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\imgmediaengine\\uht\\imgmediaplaybackcomponent.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

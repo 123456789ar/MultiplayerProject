@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BDB6D1F-D679-307B-A459-30A5B70FF6E8}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithCADWorker</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Build.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Rebuild.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\Respos\MultiplayerProject\Engine\Build\BatchFiles\Clean.bat DatasmithCADWorker Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Binaries\Win64\DatasmithCADWorker-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\Respos\MultiplayerProject\Engine\Source;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Launch\Private;C:\Respos\MultiplayerProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Core\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Core\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\TraceLog\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Core\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\TraceLog\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\TraceLog\VNI;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Projects\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Projects\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Projects\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Json\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Json\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Json\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\ApplicationCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\ApplicationCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\ApplicationCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RHI\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RHI\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\RHI\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Sockets\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Sockets\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Sockets\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\NetCommon\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\NetCommon\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Net\Common\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Net;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithDispatcher\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithDispatcher\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithDispatcher\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADInterfaces\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADInterfaces\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADInterfaces\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADKernel\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADKernel\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Datasmith\CADKernel\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Datasmith;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADLibrary\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADLibrary\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADLibrary\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADTools\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CADTools\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADTools\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CoreUObject\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\CoreUObject\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\CoreUObject\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DirectLink\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DirectLink\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Datasmith\DirectLink\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Messaging\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\Messaging\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Messaging\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshDescription\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshDescription\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\MeshDescription\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RawMesh\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\RawMesh\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\RawMesh\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\StaticMeshDescription\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\StaticMeshDescription\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\StaticMeshDescription\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DynamicMesh\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DynamicMesh\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public;C:\Respos\MultiplayerProject\Engine\Plugins\Runtime\GeometryProcessing\Source;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Engine\Public;C:\Respos\MultiplayerProject\Engine\Source\Runtime\GeometryCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\AnimationCore\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\AnimationCore\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\AnimationCore\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryAlgorithms\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\GeometryAlgorithms\VNI;C:\Respos\MultiplayerProject\Engine\Plugins\Runtime\GeometryProcessing\Source\GeometryAlgorithms\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshConversion\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\MeshConversion\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\MeshConversion\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\SkeletalMeshDescription\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\SkeletalMeshDescription\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\SkeletalMeshDescription\Public;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCADWorker\UHT;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\DatasmithCADWorker\Inc\DatasmithCADWorker\VNI;C:\Respos\MultiplayerProject\Engine\Source\Runtime\Launch\Public;C:\Respos\MultiplayerProject\Engine\Source\Programs\Enterprise\Datasmith;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17  /Zc:hiddenFriend /Zc:__cplusplus</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\DatasmithCADWorker.Target.cs"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\DatasmithCADWorker.Build.cs"/>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorker.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\DatasmithCADWorker\Development\DatasmithCADWorker\Definitions.DatasmithCADWorker.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorker.h"/>
+    <ClCompile Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorkerImpl.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Respos\MultiplayerProject\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\DatasmithCADWorker\Development\Core\SharedPCH.Core.ShadowErrors.h;C:\Respos\MultiplayerProject\Engine\Intermediate\Build\Win64\x64\DatasmithCADWorker\Development\DatasmithCADWorker\Definitions.DatasmithCADWorker.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Private\DatasmithCADWorkerImpl.h"/>
+    <None Include="..\..\..\..\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\Resources\Windows\BlankProgram.ico"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

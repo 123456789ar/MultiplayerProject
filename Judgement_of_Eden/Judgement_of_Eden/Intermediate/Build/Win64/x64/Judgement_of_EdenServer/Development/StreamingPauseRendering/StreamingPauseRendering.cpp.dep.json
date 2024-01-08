@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\streamingpauserendering\\private\\streamingpauserendering.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\streamingpauserendering\\definitions.streamingpauserendering.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\streamingpauserendering\\public\\streamingpauserendering.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\canvastypes.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\canvastypes.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\slate\\sceneviewport.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\slate\\slatetextures.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slatecore\\public\\textures\\slateupdatabletexture.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\movieplayer\\public\\movieplayer.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\movieplayer\\uht\\movieplayer.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\slate\\public\\widgets\\images\\sthrobber.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

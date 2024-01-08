@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\soundfields\\module.soundfields.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\soundfields\\definitions.soundfields.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\soundfields\\uht\\soundfields.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\soundfields\\source\\soundfields\\private\\soundfields.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\soundfields\\source\\soundfields\\public\\soundfields.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\soundfields\\uht\\soundfields.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\audioanalytics.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\engineanalytics.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analyticset\\public\\ianalyticsprovideret.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analyticset\\public\\analyticset.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\soundfieldrendering\\public\\soundfieldrendering.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\soundfieldrendering\\public\\sphericalharmoniccalculator.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\soundfields\\uht\\soundfields.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\soundfields\\source\\soundfields\\private\\soundfieldsmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\runtime\\soundfields\\source\\soundfields\\public\\soundfieldsmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

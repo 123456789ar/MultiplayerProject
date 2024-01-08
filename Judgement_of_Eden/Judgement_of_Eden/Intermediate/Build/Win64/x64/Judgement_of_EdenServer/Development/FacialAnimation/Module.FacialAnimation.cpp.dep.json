@@ -1,0 +1,34 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\facialanimation\\module.facialanimation.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\facialanimation\\definitions.facialanimation.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\facialanimation\\uht\\audiocurvesourcecomponent.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\editor\\facialanimation\\source\\facialanimation\\public\\audiocurvesourcecomponent.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\components\\audiocomponent.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\public\\audio\\soundparametercontrollerinterface.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\soundparametercontrollerinterface.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audioextensions\\public\\iaudioparametertransmitter.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiomixer\\public\\quartz\\audiomixerquantizedcommands.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiomixer\\public\\quartz\\audiomixerclock.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\audiomixer\\public\\quartz\\quartzmetronome.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\sound\\quartzsubscription.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\core\\public\\containers\\depletablempmcqueue.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\audiocomponent.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\animation\\curvesourceinterface.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\curvesourceinterface.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\facialanimation\\uht\\audiocurvesourcecomponent.generated.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\facialanimation\\uht\\facialanimation.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\editor\\facialanimation\\source\\facialanimation\\private\\audiocurvesourcecomponent.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\engine\\classes\\engine\\curvetable.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\engine\\uht\\curvetable.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\editor\\facialanimation\\source\\facialanimation\\private\\facialanimationmodule.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\editor\\facialanimation\\source\\facialanimation\\private\\facialanimationmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

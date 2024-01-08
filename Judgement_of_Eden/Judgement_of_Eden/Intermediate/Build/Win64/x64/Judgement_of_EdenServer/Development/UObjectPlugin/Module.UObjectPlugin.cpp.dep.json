@@ -1,0 +1,22 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\uobjectplugin\\module.uobjectplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\x64\\judgement_of_edenserver\\development\\uobjectplugin\\definitions.uobjectplugin.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\uobjectplugin\\uht\\mypluginobject.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\uobjectplugin\\source\\uobjectplugin\\classes\\mypluginobject.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\uobjectplugin\\uht\\mypluginobject.generated.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\respos\\multiplayerproject\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\respos\\multiplayerproject\\judgement_of_eden\\judgement_of_eden\\intermediate\\build\\win64\\judgement_of_edenserver\\inc\\uobjectplugin\\uht\\uobjectplugin.init.gen.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\uobjectplugin\\source\\uobjectplugin\\private\\mypluginobject.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\uobjectplugin\\source\\uobjectplugin\\private\\uobjectplugin.cpp",
+            "c:\\respos\\multiplayerproject\\engine\\plugins\\developer\\uobjectplugin\\source\\uobjectplugin\\public\\iuobjectplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
